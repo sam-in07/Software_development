@@ -1,0 +1,15 @@
+
+def even_odd(a) :
+   if a%2==0 :
+       return "yes even"
+   else :
+       return  "No"
+
+
+a = int(input())
+# b = int(input())
+# c = int(input())
+
+result = even_odd(a)
+
+print(result)
